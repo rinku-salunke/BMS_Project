@@ -1,0 +1,26 @@
+{
+  "name": "bms-project",
+  "version": "1.0.0",
+  "description": "Battery Management System Project",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "bms",
+    "battery",
+    "management",
+    "system"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "dependencies": {}
+}
